@@ -45,7 +45,7 @@
 						{
 							'destination': '<(module_root_dir)/build/Release',
 							'files': [
-								'<(module_root_dir)/deps/mac/*',
+								'<(module_root_dir)/deps/mac/**',
 							],
 						},
 					],
