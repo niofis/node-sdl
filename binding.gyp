@@ -23,7 +23,7 @@
 						{
 							'destination': '<(module_root_dir)/build/Release',
 							'files': [
-								'deps/linux/libSDL2-2.0.so.0',
+								'<(module_root_dir)/deps/linux/libSDL2-2.0.so.0',
 							],
 						},
 					],
