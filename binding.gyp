@@ -23,7 +23,7 @@
 						{
 							'destination': '<(module_root_dir)/build/Release',
 							'files': [
-								'<(module_root_dir)/deps/linux/*',
+								'<(module_root_dir)/deps/linux/libSDL2-2.0.so.0',
 							],
 						},
 					],
@@ -43,9 +43,9 @@
 					},
 					'copies': [
 						{
-							'destination': '<!(pwd)/build/Release',
+							'destination': '<(module_root_dir)/build/Release',
 							'files': [
-								'<!(pwd)/deps/mac/libSDL2-2.0.0.dylib',
+								'<(module_root_dir)/deps/mac/libSDL2-2.0.0.dylib',
 							],
 						},
 					],
