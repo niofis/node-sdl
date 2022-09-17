@@ -22,7 +22,6 @@
     "type": "git",
     "url": "git://github.com/kmamal/node-sdl.git"
   },
-  "files": ["*"],
   "main": "src/javascript/index.js",
   "types": "src/types/index.d.ts",
   "gypfile": true,
@@ -30,7 +29,7 @@
     "test": "tests/run-all.sh",
     "rebuild": "node-gyp rebuild --verbose",
     "prebuild": "prebuild --runtime napi --include-regex \"\\.(node|dll|dylib|so\\.0)$\" --verbose",
-    "install": "node-gyp rebuild --verbose"
+    "install": "prebuild-install --runtime napi --verbose || node-gyp rebuild --verbose"
   },
   "binary": {
     "napi_versions": [
