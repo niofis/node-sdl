@@ -19,14 +19,14 @@
 							'-Wl,-rpath,\'$$ORIGIN\'',
 						],
 					},
-					#'copies': [
-					#	{
-					#		'destination': '<(module_root_dir)/build/Release',
-					#		'files': [
-					#			'<(module_root_dir)/deps/linux/libSDL2-2.0.so.0',
-					#		],
-					#	},
-					#],
+					'copies': [
+						{
+							'destination': '<(module_root_dir)/build/Release',
+							'files': [
+								'<(module_root_dir)/deps/linux/libSDL2-2.0.so.0',
+							],
+						},
+					],
 				} ],
 				[ 'OS=="mac"', {
 					'sources': [
