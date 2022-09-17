@@ -45,7 +45,7 @@
 						{
 							'destination': '<(module_root_dir)/build/Release',
 							'files': [
-								'<(module_root_dir)/deps/mac/libSDL2-2.0.0.dylib',
+								'<(module_root_dir)/deps/mac/*',
 							],
 						},
 					],
