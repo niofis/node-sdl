@@ -41,14 +41,14 @@
 							'-Wl,-rpath,@loader_path',
 						],
 					},
-					'copies': [
-						{
-							'destination': '<(module_root_dir)/build/Release',
-							'files': [
-								'<(module_root_dir)/deps/mac/libSDL2-2.0.0.dylib',
-							],
-						},
-					],
+					#'copies': [
+					#	{
+					#		'destination': '<(module_root_dir)/build/Release',
+					#		'files': [
+					#			'<(module_root_dir)/deps/mac/libSDL2-2.0.0.dylib',
+					#		],
+					#	},
+					#],
 				} ],
 				[ 'OS=="win"', {
 					'sources': [
