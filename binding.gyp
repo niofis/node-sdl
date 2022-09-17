@@ -43,9 +43,9 @@
 					},
 					'copies': [
 						{
-							'destination': './build/Release',
+							'destination': '<!(pwd)/build/Release',
 							'files': [
-								'./deps/mac/libSDL2-2.0.0.dylib',
+								'<!(pwd)/deps/mac/libSDL2-2.0.0.dylib',
 							],
 						},
 					],
